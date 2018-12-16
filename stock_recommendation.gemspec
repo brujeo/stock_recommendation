@@ -8,4 +8,10 @@ Gem::Specification.new do |s|
     "lib/stock_recommendation.rb"
   ]
   s.require_paths = ["lib"]
+
+  # specify any dependencies here
+  s.add_development_dependency 'bundler', '~> 1.6'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec', '~> 3.8'
+  s.add_development_dependency 'nokogiri'
 end
