@@ -1,18 +1,20 @@
 require 'rubygems'
-require 'json'
 require 'open-uri'
 require 'nokogiri'
 
 module StockRecommendation
+
   class Recommendation
+
     def self.get(stock_code)
       result = get_stock_recommendation(stock_code)
       Recommendation.new(result)
     end
 
-    def self.get_json(stock_code)
-      result = get_stock_recommendation(stock_code)
-      result.to_json
+    def to_hash
+      hash = {}
+      instance_variables.each {|var| hash[var.to_s.delete("@")] = instance_variable_get(var) }
+      hash
     end
 
     protected

@@ -32,6 +32,7 @@ https://www.investopedia.com/financial-edge/0512/understanding-analyst-ratings.a
 
 
 
-You can receive a raw json hash response with the following syntax:
+You can export StockRecommendation::Recommendation instance into a hash with the following syntax:
 
-`StockRecommendation::Recommendation.get_json("AAPL")
+`r = StockRecommendation::Recommendation.get_json("AAPL")
+ r.to_hash`
