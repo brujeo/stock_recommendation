@@ -27,8 +27,8 @@ Most importnat field here is `consensus_recommendation`, that should contain one
   - Underperform    (moderate sell, weak hold, Underweight reduce)
   - Sell            (Strong Sell)
 
-  You can read more about Analyst Ratings here
-  https://www.investopedia.com/financial-edge/0512/understanding-analyst-ratings.aspx#mntl-sc-block_1-0-2
+You can read more about Analyst Ratings here
+https://www.investopedia.com/financial-edge/0512/understanding-analyst-ratings.aspx#mntl-sc-block_1-0-2
 
 
 
