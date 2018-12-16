@@ -25,6 +25,7 @@ describe StockRecommendation::Recommendation do
       expect(recommendation).to be_an_instance_of(StockRecommendation::Recommendation)
       expect(recommendation).to respond_to(:title)
       expect(recommendation).to respond_to(:consensus_recommendation)
+      expect(['Buy', 'Sell', 'Hold', 'Outperform', 'Underperform']).to include(recommendation.consensus_recommendation)
     end
   end
 end
