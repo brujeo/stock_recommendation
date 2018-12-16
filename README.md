@@ -2,6 +2,8 @@
 
 A ruby gem that retrieves Buy|Hold|Sell recommendations for the stock from Reuters Analyst Website
 
+[![Build Status](https://travis-ci.org/brujeo/stock_recommendation.svg?branch=master)](https://travis-ci.org/brujeo/stock_recommendation)
+
 ## Installation
 
 To install the 'stock_recommendation' ruby gem:
