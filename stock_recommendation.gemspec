@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{stock_recommendation}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.authors = ['Leonid Brujev']
   s.date = %q{2018-12-16}
   s.summary = %q{A ruby gem that retrieves Buy|Hold|Sell recommendations for the stock from Reuters Analyst Website}
