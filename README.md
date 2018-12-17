@@ -14,7 +14,7 @@ To install the 'stock_recommendation' ruby gem:
 
 To use the gem in your Rails Application, include it in your Gemfile:
 
-`gem "stock_recommendation"`, '~> 0.0.1'
+`gem "stock_recommendation"`, '~> 0.0.2'
 
 ### StockRecommendation::Recommendation.get(symbol)
 
