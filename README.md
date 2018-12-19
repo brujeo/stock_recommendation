@@ -36,4 +36,6 @@ https://www.investopedia.com/financial-edge/0512/understanding-analyst-ratings.a
 
 You can export StockRecommendation::Recommendation instance into a hash with the following syntax:
 
-`r = StockRecommendation::Recommendation.get("AAPL"); r.to_hash`
+`require 'stock_recommendation'`
+`r = StockRecommendation::Recommendation.get("AAPL")`
+`r.to_hash`
